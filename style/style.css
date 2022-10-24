@@ -170,12 +170,16 @@ footer{
     "servicio1 servicio2"
     "footerIndex footerIndex"
     ;
-
  }
+
+ header{
+    background-color: rgba(7, 255, 243, 0.719);  
+ }
+ 
 
  .BodyIndex header{
     grid-area: headerInd;
-    background-color: rgba(7, 255, 243, 0.719);  
+    
  }
 
  header li a{
@@ -226,10 +230,12 @@ footer{
 
 .NuestroServicios{
     color: white;
-    width: 36rem;
+    width: 40rem;
     background-color: rgba(7, 255, 243, 0.267);
     padding: 3.5rem;
     border: solid 3px white;
+    height: 17rem;
+    margin: 5rem 0 ;
 }
 
 .Servicios{
@@ -251,14 +257,12 @@ footer{
 
 .Servicio1{
     grid-area: servicio1;
-    display: flex;
-    justify-content: center;   
+    justify-self: center; 
 }
 
 .Servicio2{
     grid-area: servicio2;
-    display: flex;
-    justify-content: center;    
+    justify-self: center;  
 }
 
 .FooterIndex{
@@ -288,6 +292,7 @@ footer{
 .Instagram{
     display: flex;
     align-items: center; 
+    margin-bottom: 1rem;
 }
 
 .Instagram img{
