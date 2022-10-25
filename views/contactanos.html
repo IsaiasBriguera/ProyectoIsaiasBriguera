@@ -13,10 +13,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- linkeo aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Proyecto</title>
     
 </head>
-<body>
+<body class="BodyContactanos">
      <!-- header>div>ul>(li>a)*3 forma abreviada de hacer un header con 3 li -->
      <header>
         <nav class="navbar navbar-expand-lg">
@@ -43,9 +46,41 @@
             </div>
           </nav>
     </header>
-    <main>
-        <h1>Contactanos</h1>
-    </main>
+    <form>
+         <div class="TituloContacto">
+           <h3>CONTACTO</h3>
+         </div>
+         <!-- casilla nombre -->
+         <div class="NombreForm">NOMBRE:</div>
+         <input class="NombreInput" type="text" name="nombre">
+         <!-- casilla seleccion -->
+         <div class="ServicioForm">SERVICIO:</div>
+         <select class="ServicioInput" name="SERVICIO" id="SERVICIO">
+           <option value="E-COMMERCE">E-COMMERCE</option>
+           <option value="DESARROLLO WEB">DESARROLO WEB</option>
+         </select>
+         <!-- casilla comentarios -->
+         <div class="ComentariosForm">COMENTARIOS:</div>
+         <div class="ComentariosInput">
+           <textarea name="" id="" cols="60" rows="15"></textarea>
+         </div>
+         <!-- casilla de checkbox terminos y condiciones -->
+         <div class="Terminos">ACEPTO TÉRMINOS Y CONDICIONES
+           <input type="checkbox" name="aceptar" value="1">
+         </div>
+         <!--botones enviar y limpiar  -->
+         <div class="BotonesForm">
+           <div class="BotonEnviar Boton">
+             <button type="submit">ENVIAR</button>
+           </div>
+           <div class="BotonLimpiar Boton">
+             <button type="reset">LIMPIAR</button>
+           </div>
+         </div>
+    </form>
+    <div class="Mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0168878894488!2d-58.383759084189954!3d-34.60373446500717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1ses-419!2sar!4v1666725427453!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <footer>
         <div class="Contactanos">
             <a href="./views/contactanos.html"><h3>Contactanos</h3></a>
@@ -64,4 +99,8 @@
         
      </footer>
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </html>

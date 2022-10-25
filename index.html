@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- linkeo aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Proyecto</title>
 </head>
 <body class="BodyIndex">
@@ -73,31 +75,27 @@
             <img src="./sources/imagenes/logo.png" alt="logo">
         </div>
 
-        <div class="TituloServicios">
+        <div class="TituloServicios" data-aos="fade-down" >
             <h3>Nuestros Servicios</h3>
         </div>
          <!-- Nuestros Servicios -->
          
-            <section class="Servicio1">
+            <section class="Servicio1" data-aos="flip-up" >
                 <article class="NuestroServicios">
                     <h4 class="TituloSeccion">Desarrolo Web</h4>
                         <p class="ParrafoSeccion">Creamos tu pagina web a tus gustos y necesidades ,a la altura de tu negocio</p>
                 </article>
             </section>
 
-            <section class="Servicio2">
+            <section class="Servicio2" data-aos="flip-up">
                 <article class="NuestroServicios">
                     <h4 class="TituloSeccion">E-commerce</h4>
                     <p class="ParrafoSeccion">Ten tu propio E-commece y potencia las ventas de tu negocio para que el usuario tenga una mejor experiencia</p>
                 </article>
             </section>
             
-<<<<<<< HEAD
             
         </div>
-=======
-        
->>>>>>> grid
 
      <!-- inicio de footer -->
     <footer class="FooterIndex">
@@ -119,5 +117,9 @@
      </footer>
     
 </body>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
 </html>
     
