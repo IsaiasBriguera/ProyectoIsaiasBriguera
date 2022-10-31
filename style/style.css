@@ -137,7 +137,7 @@ header li a:hover{
 /* inicio css footer */
 
 footer{
-    background-color: rgb(10, 199, 189);
+    background-color: rgb(0, 139, 139);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +151,7 @@ footer{
 
 .Contactanos a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: white;
 }
 
 .Instagram{
@@ -166,7 +166,7 @@ footer{
 
 .Instagram a{
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     margin: 0 0.5rem ;
 }
@@ -183,14 +183,14 @@ footer{
 
 .Whatsapp a{
     font-size: 2rem;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
     margin: 0 0.5rem ;
 }
 
 .Copy{
     font-size: 1rem;
-    color: rgb(0, 0, 0);
+    color: white;
     margin: 2rem 0 2rem 0;
 }
 
@@ -458,5 +458,70 @@ footer{
     }
 
 
+
+}
+
+/* inicio E-COMMERCE */
+
+.Ecommerce{
+    color: white;
+    text-align: center;
+    margin: 4rem;
+}
+
+.Ecommerce h1{
+    font-size: 4rem;
+    
+}
+
+
+.Argentina{
+    color: white;
+    background-color: rgb(0, 139, 139);
+    padding: 7rem 30rem;
+    margin: 10rem 0;
+}
+
+.Argentina section{
+    border: solid 4px white;
+    padding: 5rem;
+}
+
+.Secciones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35rem;
+    margin: 4rem 0;
+    background-color: rgb(0, 139, 139);
+}
+
+.Secciones section{
+    width: 50rem;
+    color: white;
+    padding: 5rem;
+    margin: 0 2rem;
+    border: solid 4px white;
+}
+
+.Secciones article{
+    text-align: center;
+}
+
+.Secciones h4{
+    margin-bottom: 2rem;
+}
+
+.Argentina button{
+    background-color: rgba(255, 255, 255, 0);
+    border: solid 2px white;
+    color: white;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+.Argentina div{
+    display: flex;
+    justify-content: flex-end;
 
 }
