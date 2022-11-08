@@ -1,57 +1,100 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Vcrux</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linkeo bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- linkeo css -->
+        <link rel="stylesheet" href="../style/style.css">
+        <!-- linkeo fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- linkeo aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Proyecto</title>
+    </head>
 <body>
      <!-- header>div>ul>(li>a)*3 forma abreviada de hacer un header con 3 li -->
      <header>
-        <div>
-            
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="active" href="../index.html">INICIO</a>
                 </li>
-                <li>
-                    <a href="./e-commerce.html">E-commerce</a>
+                <li class="nav-item">
+                  <a class="active" aria-current="page" href="../views/e-commerce.html">E-COMMERCE</a>
                 </li>
-                <li>
-                    <a href="./DesarrolloWeb.html">Desarrollo Web</a>
+                <li class="nav-item">
+                  <a class="active" href="../views/DesarrolloWeb.html">DESARROLLO WEB</a>
                 </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                  <a class="active" href="../views/nosotros.html">NOSOTROS</a>
                 </li>
-                <li>
-                    <a href="./contactanos.html">Contactanos</a>
+                <li class="nav-item">
+                  <a class=" active " href="../views/contactanos.html" >CONTACTANOS</a>
                 </li>
-               
-                
-               
- 
-             </ul>
-        </div>
-
-    </header>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
     <main>
         <h1>Nosotros</h1>
     </main>
+    <section>
+        <article>
+            <h2>SOBRE NOSOTROS</h2>
+            <P>Nacimos en 2015 como un emprendimiento de dos amigos que querían facilitar y resolver los procesos organizacionales internos de distintas compañías.
+
+                
+                
+                En la actualidad, somos una empresa emergente con la motivación y la frescura de una startup innovadora, flexible y con una fuerte base tecnológica.
+                
+                
+                
+                Hemos multiplicado nuestra oferta, y escalado la estructura de negocio para llevar nuestras soluciones a importantes clientes del sector del Real Estate, gracias al trabajo en equipo de profesionales de la ingeniería, el desarrollo y el diseño.</P>
+        </article>
+    </section>
+    <div>
+        <h2>TESTIMONIOS DE CLIENTES</h2>
+    </div>
+    <div>
+        <img src="../sources/imagenes/lio.png" alt="">
+        <p>"Demás está decir que ante cualquier dificultad siempre encuentro quién me atienda y solucione los problemas rápidamente"</p>
+    </div>
+    <div>
+        <img src="../sources/imagenes/peter.png" alt="">
+        <p>"Siempre han aportado soluciones originales a los retos planteados"</p>
+    </div>
+    <div>
+        <img src="../sources/imagenes/zack.png" alt="">
+        <p>"Estoy muy contento con el diseño de mi página web"</p>
+    </div>
+    <div>
+        <img src="../sources/imagenes/cruela.png" alt="">
+        <p>"Encontré mucho más de lo que esperaba, su dedicación al cliente supera cualquier otra experiencia previa"</p>
+    </div>
+    
     <footer>
         <div class="Contactanos">
             <a href="./views/contactanos.html"><h3>Contactanos</h3></a>
         </div>
         <div class="Instagram">
-            <a href="https://www.instagram.com/vcrux_gaming/"><img src="../sources/imagenes/logo_instagramnegro.png" alt=""></a>
+            <a href="https://www.instagram.com/vcrux_gaming/"><img src="../sources/imagenes/logoinstagram_blanco.png" alt=""></a>
             <a href="https://www.instagram.com/vcrux_gaming/"><h5>Vcrux_Gaming</h5></a>
         </div>
         <div class="Whatsapp">
-            <a href="https://web.whatsapp.com/"><img src="../sources/imagenes/logo_whatsappnegro.png" alt=""></a>
+            <a href="https://web.whatsapp.com/"><img src="../sources/imagenes/logowpp_blanco.png" alt=""></a>
             <a href="https://web.whatsapp.com/"><h5>+54 11 122345678</h5></a>
         </div>
         <div class="Copy">

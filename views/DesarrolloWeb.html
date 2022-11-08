@@ -1,57 +1,87 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <title>Vcrux</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- linkeo bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- linkeo css -->
+        <link rel="stylesheet" href="../style/style.css">
+        <!-- linkeo fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- linkeo aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <title>Proyecto</title>
+    </head>
 <body>
      <!-- header>div>ul>(li>a)*3 forma abreviada de hacer un header con 3 li -->
      <header>
-        <div>
-            
-            <ul>
-                <li>
-                    <a href="../index.html">Inicio</a>
+        <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="active" href="../index.html">INICIO</a>
                 </li>
-                <li>
-                    <a href="./e-commerce.html">E-commerce</a>
+                <li class="nav-item">
+                  <a class="active" aria-current="page" href="../views/e-commerce.html">E-COMMERCE</a>
                 </li>
-                <li>
-                    <a href="./DesarrolloWeb.html">Desarrollo Web</a>
+                <li class="nav-item">
+                  <a class="active" href="../views/DesarrolloWeb.html">DESARROLLO WEB</a>
                 </li>
-                <li>
-                    <a href="./nosotros.html">Nosotros</a>
+                <li class="nav-item">
+                  <a class="active" href="../views/nosotros.html">NOSOTROS</a>
                 </li>
-                <li>
-                    <a href="./contactanos.html">Contactanos</a>
+                <li class="nav-item">
+                  <a class=" active " href="../views/contactanos.html" >CONTACTANOS</a>
                 </li>
-               
-                
-               
- 
-             </ul>
-        </div>
-
-    </header>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
     <main>
-        <h1>Diseño</h1>
+        <div>
+            <h1>Desarrollo Web</h1>
+        </div>
+        <section>
+            <article>
+                <h3>IMPORTANCIA DE UNA WEB</h3>
+                <p>Sin importar el servicio o el producto que ofrezcas, puedes tener un espacio dentro de la red. Las páginas webs son ideales para mostrar tu contenido al público meta, su amplitud te permite mostrar desde videos hasta galerías de fotografías, dar a conocer el menú de tu empresa o los horarios de trabajo. Así como los portales digitales también te brindan la capacidad de tener un intercambio comunicacional entre la marca y el público.</p>
+            </article>
+            <div>
+                <img src="../sources/imagenes/grafico.png" alt="">
+            </div>
+        </section>
+        <section>
+            <article>
+                <h3>HACEMOS TU WEB</h3>
+                <p>La era digital trajo consigo cambios significativos para la manera en cómo las empresas estaban acostumbradas a manejar el marketing y las ventas, de la misma forma constituyó una fuente de oportunidades para la promoción de marcas, productos y servicios, por ese motivo nosotros nos centramos en hacer la web a gustos y medidas que necesites.</p>
+            </article>
+            <div>
+                <img src="../sources/imagenes/Paginas-web.jpg" alt="">
+            </div>
+        </section>
+
     </main>
     <footer>
         <div class="Contactanos">
             <a href="./views/contactanos.html"><h3>Contactanos</h3></a>
         </div>
         <div class="Instagram">
-            <a href="https://www.instagram.com/vcrux_gaming/"><img src="../sources/imagenes/logo_instagramnegro.png" alt=""></a>
+            <a href="https://www.instagram.com/vcrux_gaming/"><img src="../sources/imagenes/logoinstagram_blanco.png" alt=""></a>
             <a href="https://www.instagram.com/vcrux_gaming/"><h5>Vcrux_Gaming</h5></a>
         </div>
         <div class="Whatsapp">
-            <a href="https://web.whatsapp.com/"><img src="../sources/imagenes/logo_whatsappnegro.png" alt=""></a>
+            <a href="https://web.whatsapp.com/"><img src="../sources/imagenes/logowpp_blanco.png" alt=""></a>
             <a href="https://web.whatsapp.com/"><h5>+54 11 122345678</h5></a>
         </div>
         <div class="Copy">
